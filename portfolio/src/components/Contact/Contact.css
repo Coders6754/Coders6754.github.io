@@ -1,0 +1,88 @@
+#contact {
+
+  margin-top: 70px;
+  padding: 20px;
+ 
+}
+#contact h1 {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-bottom: 10px;
+  font-size: 40px;
+  color: rgb(254, 223, 185);
+  margin-top: 50px;
+
+}
+
+#contact > div {
+  display: grid;
+  max-width: 1280px;
+  /* display: flex; */
+  padding: 30px;
+  margin: auto;
+  grid-template-columns: repeat(4, 1fr);
+  /* flex-wrap: wrap; */
+  gap: 15px;
+  justify-content: space-between;
+}
+
+.contactCard {
+  /* margin: 15px; */
+
+  text-align: center;
+  padding: 30px 0px;
+  border-radius: 0.0px;
+  cursor: pointer;
+  /* box-shadow: rgba(235, 150, 69, 0.9) 2px 3px 3px 2px;
+  transform: scale(1.05); */
+ margin: 10px;
+}
+
+.contactCard:hover {
+  box-shadow: rgba(235, 150, 69, 0.9) 2px 3px 3px 2px;
+  transform: scale(1.05);
+}
+
+.contactCard img {
+  width: 25%;
+}
+.contactCard p,
+.contactCard h5 {
+  color: #b2b1b4;
+}
+
+@media screen and (width<1150px) {
+  .contactCard p {
+    font-size: 0.9rem;
+  }
+}
+@media screen and (width<1050px) {
+  #contact > div {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .contactCard p {
+    font-size: 1rem;
+  }
+  .contactCard img {
+    width: 15%;
+  }
+}
+@media screen and (width<620px) {
+  .contactCard p {
+    font-size: 0.9rem;
+  }
+  .contactCard img {
+    width: 15%;
+  }
+  #contact h1 {
+    font-size: 1.7rem;
+  }
+}
+@media screen and (width<550px) {
+  #contact > div {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .contactCard img {
+    width: 15%;
+  }
+}
