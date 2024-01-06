@@ -74,9 +74,7 @@ const skills = [
   },
 ];
 
-
 export default function Skills() {
-
   return (
     <div id="skills">
       <h1>Skills</h1>
@@ -127,12 +125,21 @@ export default function Skills() {
           </a>
         </div>
 
-        <div style={{ height: "0px" }}>
+        <div style={{ height: "220px" }}>
           <img
             src="https://github-readme-stats.vercel.app/api/top-langs/?username=Coders6754&theme=radical&hide_border=false&include_all_commits=false&count_private=false&layout=compact"
             alt=""
             id="github-top-langs"
-            style={{ height: "0px" }}
+            style={{ height: "200px" }}
+          />
+        </div>
+
+        <div style={{ height: "220px" }}>
+          <img
+            src="https://github-readme-stats.vercel.app/api?username=Coders6754&show_icons=true&theme=radical&hide_border=false"
+            id="github-stats-card"
+            alt=""
+            style={{ height: "200px" }}
           />
         </div>
       </div>
