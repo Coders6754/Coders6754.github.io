@@ -1,5 +1,5 @@
 import "./Skills.css";
-import Github from "./Github";
+// import Github from "./Github";
 
 const skills = [
   {
@@ -97,9 +97,7 @@ export default function Skills() {
         Days I <b>Worked </b>
       </h1>
       <div className="githubConatiner">
-        <div className="react-activity-calendar">
-          <Github />
-        </div>
+        <div className="react-activity-calendar">{/* <Github /> */}</div>
         <div>
           <div>
             <a href="https://git.io/streak-stats">

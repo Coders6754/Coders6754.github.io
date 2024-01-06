@@ -80,7 +80,7 @@
 }
 .githubConatiner > div:first-child {
   display: grid;
-  grid-template-columns: repeat(1, 1fr);
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .githubConatiner > div:nth-child(2) {
@@ -98,12 +98,10 @@
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-
-
 @media screen and (max-width: 1150px) {
   #skill_section {
     font-size: 15px;
-    color:#da7e85;
+    color: #da7e85;
   }
   .skill_box span {
     font-size: 1.1em;
@@ -116,8 +114,7 @@
   }
 }
 
-
-@media screen and (max-width: 850px){
+@media screen and (max-width: 850px) {
   #skill_section {
     font-size: 14px;
   }
@@ -134,9 +131,8 @@
   .githubConatiner > div:first-child {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    
   }
-  
+
   .githubConatiner > div:nth-child(2) {
     width: 100%;
   }
@@ -165,11 +161,9 @@
   .githubConatiner > div:first-child {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    
   }
-  
+
   .githubConatiner > div:nth-child(2) {
     width: 100%;
   }
 }
-
