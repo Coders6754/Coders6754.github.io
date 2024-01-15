@@ -21,7 +21,7 @@ function HomeSection() {
     <div id="home">
       <div id="left_home">
         <div>
-          <h2 className="Basic">
+          <h2 className="Basic" style={{color:"#da7e85"}}>
             Namaste, Hi There!{""}
             <span className="wave" role="img" aria-labelledby="wave">
               👋🏻
