@@ -60,9 +60,9 @@
   margin: 50px 0;
 } */
 #home img {
-  border-radius:40%;
-  height: 47%;
-  width: 47%;
+  border-radius:47%;
+  height: 50%;
+  width: 49%;
   border-bottom: 10px solid rgb(1, 107, 107);
   box-shadow: rgb(2, 108, 108) 2px 0px 20px 1px;
 }

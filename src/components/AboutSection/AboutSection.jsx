@@ -14,17 +14,17 @@ function AboutSection() {
     <div id="about" className="about section">
       <h1>About Me</h1>
       <p id="user-detail-intro">
-        I am a Full Stack Web Developer specializing in the <b>MERN</b> Stack. I
-        successfully completed an extensive{" "}
-        <b>Full Stack Web Development Course</b> at Masai. My tech toolbox
-        encompasses{" "}
+        As a Full Stack Web Developer specializing in the <b>MERN</b> Stack.
+        extensive training in <b>Full Stack Web Development</b> was completed at
+        Masai .My tech toolbox encompasses{" "}
         <b>
           React, Redux, JAVA, Node, Express, Mongoose, MongoDB, HTML, CSS,
           JavaScript, and Git.
         </b>{" "}
-        I approach tasks with a positive attitude and a growth mindset. I am
-        ready to make a meaningful impact and strive for significant
+        Tasks are approached with a positive attitude and a growth mindset, with
+        readiness to make a meaningful impact and strive for significant
         achievements.
+        
       </p>
       <div className="education_card">
         <h2>Education</h2>
